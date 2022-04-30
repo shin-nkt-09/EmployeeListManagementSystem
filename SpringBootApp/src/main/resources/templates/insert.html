@@ -19,10 +19,28 @@
 		</header>
 		<main>
 			<div class="serchForm">
-				<form type="search" action="cgi-bin/example.cgi" method="post">
-				  <p>検索したいキーワードを入力してください。</p>
-					  <input type="search" name="search" class="serch" placeholder="キーワードを入力">
-					  <input type="submit" name="submit" value="検索">
+<!-- 			<form th:action="@{/Main/insert"} th:object="${userRequest}" th:method="post">-->
+	 			<form method="post">
+					<div class="form-group">
+						<label>氏名：<span class"text-danger">※</span></label>
+						<!-- <input type="text" th:field="*{name}" class="form-control"> -->
+						 <input type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<label>生年月日：<span class"text-danger">※</span></label>
+						<!-- <input type="text" th:field="*{name}" class="form-control"> -->
+						 <input type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<label>住所：<span class"text-danger">※</span></label>
+						<!-- <input type="text" th:field="*{name}" class="form-control"> -->
+						 <input type="text" class="form-control">
+					</div>
+					<div class="form-group">
+						<label>電話番号：<span class"text-danger">※</span></label>
+						<!-- <input type="text" th:field="*{name}" class="form-control"> -->
+						 <input type="text" class="form-control">
+					</div>
 				</form>
 			</div>
 			<div class="info">

@@ -15,7 +15,6 @@ public class MainController {
 
     @GetMapping("/insert")
     public String insert(Model model) {
-//        model.addAttribute("message", "Hello Thymeleaf !!");
         return "insert";
     }
 }
