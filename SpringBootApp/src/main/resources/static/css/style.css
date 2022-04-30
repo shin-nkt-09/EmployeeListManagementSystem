@@ -1,0 +1,66 @@
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body {
+	height: 100Vh;
+}
+
+
+header {
+	height: 70px;
+	width: 100%;
+	background: #c2deff;
+	display: flex;
+	justify-content: space-between;
+}
+
+.headName {
+	padding: 18px 0 0 15px;
+	font-size: 25px;
+}
+
+.headSub {
+	display: flex;
+	padding: 17px;
+	font-size:20px;
+}
+
+.headSubBtn {
+	margin-right: 10px;
+}
+
+main {
+	display: flex;
+	height: 100%;
+}
+
+.serchForm {
+	height: 400px;
+	width: 700px;
+	background: gray;
+	margin: 100px 50px 50px 200px;
+}
+
+.serch {
+	height: 40px;
+	width: 300px;
+	margin:20px 0 0 20px;
+}
+
+.info {
+	height: 400px;
+	width: 300px;
+	background: skyblue;
+	margin: 100px 50px 0 auto;
+}
+
+footer {
+	position: absolute;/*←絶対位置*/
+    bottom: 0;
+	height: 70px;
+	width: 100%;
+	background: #c2deff;
+}
